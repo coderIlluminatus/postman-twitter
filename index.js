@@ -29,8 +29,10 @@ app.use('/api/tweet', TweetController)
 
 mongoose.connect(config.dbURL, {useNewUrlParser: true})
 
-app.listen(config.port || 3000, () => {
-  console.log('Starting on port 3000')
+let port = config.port || 3000
+
+app.listen(port, () => {
+  console.log(`Starting on port ${port}`)
 })
 
 module.exports = app
