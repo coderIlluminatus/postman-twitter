@@ -26,5 +26,10 @@ case 'DEV':
 default: config = configs.dev; break;
 }
 
+config.secret = process.env.SECRET || config.secret
+config.port = process.env.PORT || config.port
+config.dbURL = process.env.DBURL || config.dbURL
+
+console.log('config', config)
 
 module.exports = config
