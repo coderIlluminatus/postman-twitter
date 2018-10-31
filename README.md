@@ -1,6 +1,12 @@
 # Assignment 4 - Twitter REST API Backend
 ## IIIT Allahabad - Sayantan Chatterjee - IIT2015511
 
+### Postman collection
+
+<a href="https://documenter.getpostman.com/view/2547817/RzZ3N3Ui" target="_blank">
+    <img alt="Postman Collection" src="https://res.cloudinary.com/postman/image/upload/w_152,h_56,c_fit,f_auto,t_team_logo/v1/team/768118b36f06c94b0306958b980558e6915839447e859fe16906e29d683976f0" />
+</a>
+
 ## Contents
 - [About](#about)
 - [Requirements](#requirements)
